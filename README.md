@@ -4,6 +4,12 @@
 
 Before starting, install the required tools:
 
+Install Git:
+```bash
+sudo apt-get update
+sudo apt-get install git
+```
+
 Install Foundry:
 ```bash
 curl -L https://foundry.paradigm.xyz | bash
@@ -20,7 +26,7 @@ Install vlayer:
 curl -L https://install.vlayer.xyz | bash
 ```
 
-Required tools: `Bun` `Foundry`
+Required tools: `Git` `Bun` `Foundry`
 
 ## Simple Template: ERC20 Balance Proof
 
