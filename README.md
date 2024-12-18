@@ -2,14 +2,25 @@
 
 ## Prerequisites
 
-Before starting, ensure you have these tools installed:
+Before starting, install the required tools:
 
-`Bun` `Foundry` `Git`
+Install Foundry:
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+```
+
+Install Bun:
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
 
 Install vlayer:
 ```bash
 curl -L https://install.vlayer.xyz | bash
 ```
+
+Required tools: `Bun` `Foundry`
 
 ## Simple Template: ERC20 Balance Proof
 
